@@ -7,6 +7,9 @@ class SlashCommand(commands.Cog):
 
     @commands.slash_command(description="A simple slash command")
     async def hello(self, inter: disnake.ApplicationCommandInteraction):
+        
+        print("hello")
+        
         await inter.response.send_message("Hello, world!")
 
 def setup(bot):
