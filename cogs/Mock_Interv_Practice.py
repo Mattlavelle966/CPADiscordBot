@@ -28,7 +28,8 @@ class CallOpenAI(commands.Cog):
                 {"role": "user", "content": "please ask a short question"}
                 #^^user prompt STATIC^^
                 #NOTE both system and and user prompts should be opptimized for supperior question generation(https://platform.openai.com/docs/guides/text-generation)
-            ]
+            ]#test
+            
         )
         print("API CALLED")        
         
